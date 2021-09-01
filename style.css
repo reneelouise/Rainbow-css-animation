@@ -1,0 +1,167 @@
+@keyframes rainbow{
+    10% {background-color:thistle;}
+    20% {background-color: teal;}
+    30% {background-color: palegreen;}
+    40% {background-color: rgb(49, 253, 253);}
+    50% {background-color:  orangered;}
+    60% {background-color: rgb(98, 80, 255);}
+    70% {background-color: lightpink}
+    80% {background-color: hotpink;}
+    90% {background-color: lightsalmon;}
+    100% {background-color: gold;}
+
+}
+
+@keyframes skyblue{
+    10% {background-color:rgb(151, 151, 235);}
+    20% {background-color: rgb(157, 228, 228);}
+    30% {background-color: rgb(188, 216, 235);}
+    40% {background-color: rgb(114, 206, 206);}
+    50% {background-color:  rgb(106, 179, 228);}
+    60% {background-color: rgb(174, 167, 236);}
+    70% {background-color: rgb(128, 177, 233);}
+    85% {background-color: rgb(84, 135, 202);}
+    100% {background-color: rgb(201, 245, 248);}
+ 
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    animation-name: skyblue;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: -5s;
+  }
+  
+  .container {
+    background-color:white;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .semicircle1 {
+    background-color:red;
+    /*background-color: red;*/
+    height: 200px;
+    width: 400px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+    bottom:-12%;
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: -1s;
+  }
+  
+  .semicircle2 {
+    background-color: yellow;
+    /*background-color: orange;*/
+    height: 180px;
+    width: 360px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+  }
+  
+  .semicircle3 {
+    background-color:pink;
+    /*background-color: yellow;*/
+    height: 160px;
+    width: 320px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+  }
+  
+  .semicircle4 {
+    background-color: green;
+    /*background-color: green;*/
+    height: 140px;
+    width: 280px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+  }
+  
+  .semicircle5 {
+    background-color: orange;
+    /*background-color: blue;*/
+    height: 120px;
+    width: 240px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+  }
+  
+  .semicircle6 {
+    background-color: purple;
+    /*background-color: indigo;*/
+    height: 100px;
+    width: 200px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+  }
+  
+  .semicircle7 {
+    background-color: blue;
+    /*background-color: violet;*/
+    height: 80px;
+    width: 160px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+  }
+  
+  .semicircle8 {
+    background-color: violet;
+    height: 60px;
+    width: 120px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+  }
+  
